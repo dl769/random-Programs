@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     int characterWords[2]; //arrray storing no of characters [0] and words [1]
 
     long long int inputSize = checkFileSize (fo);
-    printf ("Checking input file size ... %lli \n", inputSize);
+    printf ("Checking input file size ... %lli bytes\n", inputSize);
 
     if (inputSize >= maxFileSize)
     {
@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
     qsort((void *) word, numberOfWords, sizeof (words), (int (*) ( void *,  void *)) compareWords);
 
 
-	printf ("Saving...\n");
+    printf ("Saving...\n");
     printWords (word, numberOfWords, fk);
 
     free (buf);
