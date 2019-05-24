@@ -1,0 +1,9 @@
+Words occurency counter.
+
+Run it from cmd window using switches (-i -o). Eg .\wordCounter.exe -i inputFile.txt -o outputFile.txt.
+
+Until after you see "Finished", do not close the program, let him work. After then, you can see the result in output text file.
+
+Input file should be in the same direcory as the program. Output will be created there.
+
+It's recommended to use properly formated txt files from "wikisource.org".
