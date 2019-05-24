@@ -2,7 +2,7 @@ Words occurency counter.
 
 Run it from cmd window using switches (-i -o). Eg .\wordCounter.exe -i inputFile.txt -o outputFile.txt.
 
-Until after you see "Finished", do not close the program, let him work. After then, you can see the result in output text file.
+Until after you see "Finished", do not close the program, let him work. After then, you can see the result in the output text file.
 
 Input file should be in the same direcory as the program. Output will be created there.
 
