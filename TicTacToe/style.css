@@ -1,0 +1,45 @@
+
+.add-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 45px;
+  width: 100px;
+}
+#p1id{
+  color: white;
+  font-size: 15px;
+}
+#p2id{
+  color: white;
+  font-size: 15px;
+
+}
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-color: black;
+  color:white;
+}
+a{
+  color: white;
+  font-size: 15px;
+} 
+.sizeSelectText{
+    margin-left: 5px;
+}
+.r{
+  margin-left: 10px;
+}
+.tictactoename{
+  font-size: 43px;
+  color: white;
+  text-align: center;
+}
