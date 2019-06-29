@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <ctype.h>
 
 int checkProvider();
 
@@ -15,17 +16,25 @@ int main()
 
     unsigned long long cardNumber =0;
 
-    int choice = 0;
+    int choice = 1;
 
     do{
+        if((choice!=1 &&choice!=2 &&choice !=3 &&choice!=0)){
 
-        printf("Generated card is valid! Number: %llu\n",generateCard(choice));
+            printf("Enter 1,2,3 to generate or 0 to exit \n1.AMEX\n2.MASTERCARD\n3.VISA\n");fflush(stdin);
 
-        printf("\nChoose Card to generate (0 to exit):\n1.AMEX\n2.MASTERCARD\n3.VISA\n");
+        }
 
-        fflush(stdin);
+        else{
 
-   }while(scanf("%d",&choice)!=1||choice!=0);
+            printf("Generated card is valid! Number: %llu\n",generateCard(choice));
+
+            printf("\nChoose Card to generate (0 to exit):\n1.AMEX\n2.MASTERCARD\n3.VISA\n");
+
+            fflush(stdin);
+        }
+
+   }while((scanf("%d",&choice)!=1||choice!=0));
 
    if(choice!=0){
 
