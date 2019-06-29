@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  
+</head>
+
+  <body>
+
+      <form class="playerNames" > 
+        X:<br>
+        
+        <input type="text" id="name1" value="">
+        <input type="radio" name="modeSelect" class="r" checked="checked"; id="radioPlayer" onchange="unlockO();">2 players
+        <input type="radio" class="r" name="modeSelect" id="radioAI" onchange="lockO();"> AI
+        
+        <select id="difficulty" disabled="disabled">
+
+          <option value="1">Easy</option>
+          <option value="2" disabled="true">Medium (soon)</option>
+          <option value="3" disabled="true">Hard (soon)</option>
+
+        </select>
+
+        <br>
+        O:
+        <br>
+        <input type="text" id="name2" value="">
+
+        <a class="sizeSelectText">select size</a>
+        <select id="mySelect">
+    
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+    
+        </select>
+
+        <a>points required</a>
+        <select id="sel">
+    
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+
+        </select>
+
+        <br><br>
+        <input type="submit" class="subNames" value="Play">
+
+        </form> 
+
+      <br><br>
+      
+      <a class="tictactoename">TIC TAC TOE GAME</a>
+      
+      <br><br>
+
+      <table class="field"> 
+      
+      </table>	
+    <br>
+
+        
+  </body>
+</html>
